@@ -18,4 +18,8 @@ class Artist
   def save
     @@all << self
   end
+  
+  def find_or_create_by_name
+    @@all.find(self)
+  end
 end
