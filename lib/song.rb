@@ -12,7 +12,7 @@ class Song
     new_song = self.new(song)
     new_song.artist_name = artist
     @@all << new_song
-    
+    Artist.add_song(new_song)
   end
 
   def self.all
