@@ -29,6 +29,5 @@ class Artist
   
   def self.create(name)
     @name = name
-    @songs = []
   end
 end
