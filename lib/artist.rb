@@ -28,6 +28,6 @@ class Artist
   end
   
   def self.create(name)
-    @name = name
+    self = name
   end
 end
