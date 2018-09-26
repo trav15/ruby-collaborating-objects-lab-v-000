@@ -28,6 +28,6 @@ class Artist
   end
   
   def self.create(name)
-    self = name
+    self.new(name)
   end
 end
